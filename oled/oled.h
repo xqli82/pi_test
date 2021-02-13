@@ -2,6 +2,7 @@
 #define __oled_h
 #include <wiringPi.h>
 #include <iostream>
+
 using namespace std;
 
 #define CONTROL_CMD 0x00
