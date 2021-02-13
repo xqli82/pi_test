@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push":"git add . && git commit -m 'more' && git push -u origin master",
+    "pull":"git pull https://github.com/xqli82/pi_test"
   },
   "keywords": [],
   "author": "",
